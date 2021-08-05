@@ -7,7 +7,7 @@ getData();
           const data = await response.json();
           console.table(data.result);
           df = new dfd.DataFrame(data.result);
-          df.print();
           df.to_csv("Data.csv")
-
+          df.set_index({key: "name", inplace: true});
+          df.print();
      }
