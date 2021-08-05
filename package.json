@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "danfojs-node": "^0.2.7",
+    "dataframe-js": "^1.4.4",
+    "jquery": "^3.6.0",
+    "node-fetch": "^2.6.1",
+    "tabulator-tables": "^4.9.3"
+  }
+}
